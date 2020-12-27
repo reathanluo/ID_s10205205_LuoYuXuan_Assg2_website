@@ -1,3 +1,2 @@
-# ID_s10205205_LuoYuXuan_Assg2_website
-ID assignment2_yuxuan
-test
+# ID Assignment2 Covid-19 statistics
+# This is a web app that can be used to dsicover the statistics of Covid-19 situation

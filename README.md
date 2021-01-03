@@ -72,3 +72,9 @@ During this Covid-19 period, it is important and necessary to disseminate the es
 
 # Tests:
 The webstie has been tested on chrome,firefox and microsoft edge on pc, and safari,chrome on phone. It is responsive and able to run.
+
+# Commits
+1. Commit the framework and simple Readme File
+2. Commit the basic outline for the website
+3. Commit the websites: Home,Prevention,Symptoms and Treatment
+4. Commit part of the website: Statistics

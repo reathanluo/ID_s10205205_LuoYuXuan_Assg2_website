@@ -50,32 +50,40 @@
         <h1 class="display-3">Covid-Statistics</h1>
           <div class="col-lg-10">
             <p>The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales. These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces.<br><br>
-            You can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.</p></div>
+            You can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.<br><br><strong>The data and statistics are retrieved from <a href="https://api.apify.com/v2/datasets/suHgi59tSfu02VsRO/items?format=json&clean=1" target="_blank">This link</a>, and for some Instances it takes up to a 30 seconds to load. Thanks for your patience.</strong></p></div>
       </div>
     </div>
 
     <div class="container my-5">
       <div class="row text-center">
         <div class="col-3 text-warning">
-          <h5>Confirmed</h5>
+          <h5>Confirmed Cases in Singapore</h5>
           <p id="confirmed"></p>
         </div>
 
         <div class="col-3 text-info">
-          <h5>Active</h5>
+          <h5>Active Cases <br>in Singapore</h5>
           <p id="active"></p>
         </div>
 
         <div class="col-3 text-success">
-          <h5>Recovered</h5>
+          <h5>Recovered Cases in Singapore</h5>
           <p id="recovered"></p>
         </div>
 
         <div class="col-3 text-danger">
-          <h5>Death</h5>
+          <h5>Deceased Cases in Singapore</h5>
           <p id="deaths"></p>
         </div>
       </div>
+
+      <canvas id="mychart"></canvas>
+
+      <hr class="featurette-divider">
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2021 LuoYuXuan </p>
+      </footer>
     </div>
 
 

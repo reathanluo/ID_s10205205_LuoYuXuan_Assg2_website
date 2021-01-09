@@ -4,7 +4,7 @@ This is a web app that can be used to know more about Covid-19. The website incl
 # Motivation
 During this Covid-19 period, it is important and necessary to disseminate the essential knowledge and educate the people. Thus, the idea became an idea to create this website
 
-# Framework used
+# Framework Used
 * Bootstrap style sheet
   * https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   
@@ -70,7 +70,7 @@ During this Covid-19 period, it is important and necessary to disseminate the es
   8. https://cfar.ucsd.edu/media/filer_public/d5/bb/d5bb8eae-680a-4388-9e6f-9de22107f507/strategie-for-success.pdf
   9. https://flipboard.com/@YahooBrasil/verificamos-falso-que-coquetel-com-hidroxicloroquina-tem-efic-cia-de-99-9-co/a-INJ6epl3Q0Scc_s0lHL6qg%3Aa%3A3140255151-8d821c8f4e%2Fyahoo.com
 
-# Tests:
+# Tests
 The webstie has been tested on chrome,firefox and microsoft edge on pc, and safari,chrome on phone. It is responsive and able to run.
 
 # Commits

@@ -13,12 +13,17 @@ $(document).ready(function(){
 
         $.each(data,function(id,obj){
             active.push(obj.activeCases);
-            confirmed.push(obj.confirmed);
+            confirmed.push(obj.infected);
             recovered.push(obj.recovered);
-            deaths.push(obj.deaths);
+            deaths.push(obj.deceased);
         })
+        for(let i=0;i<6;i++){
+            active.shift();
+        }
+        
 
-        console.log(active);
+
+        console.log(deaths);
 
         total_active =data[data.length-1].activeCases;
         total_confirmed = data[data.length-1].infected;
@@ -28,8 +33,42 @@ $(document).ready(function(){
         $("#confirmed").append(total_confirmed);
         $("#recovered").append(total_recovered);
         $("#deaths").append(total_deaths);
+
+        var mychart = document.getElementById("mychart").getContext('2d');
+
+        var chart = new Chart(mychart,{
+            type:'line',
+            data:{
+                labels:confirmed,
+                datasets:[
+                    {
+                        label:"Confirmed Cases",
+                        data: confirmed,
+                        backgroundColor:"#f1c40f",
+                        minBarLength:100,
+                    },
+                    {
+                        label:"Active Cases",
+                        data: active,
+                        backgroundColor:"#99ffff",
+                        minBarLength:100,
+                    },
+                    {
+                        label:"Recovered Cases",
+                        data: recovered,
+                        backgroundColor:"#2ec771",
+                        minBarLength:100,
+                    },
+                    {
+                        label:"Deceased Cases",
+                        data: deaths,
+                        backgroundColor:"#e74c3c",
+                        minBarLength:100,
+                    }
+                ]
+            },
+            options:{}
+        })
+        
     })
-
-
-
-})
+});

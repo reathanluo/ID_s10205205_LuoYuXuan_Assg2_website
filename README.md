@@ -6,7 +6,7 @@ During this Covid-19 period, it is important and necessary to disseminate the es
 
 # Framework Used
 * Bootstrap style sheet
-  * https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  * https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"crossorigin="anonymous">
   
 * Bootstrap Classes
   * collapse
@@ -48,13 +48,18 @@ During this Covid-19 period, it is important and necessary to disseminate the es
 * Bootstrap Ids
   * navbarHeader
   
+* Chart.js
+
+* JQuery
+  * getJSON
+  * each
+  
 # Features
 1. Newest data and statistics shown to the readers
 2. Useful contents about Covid-19 for reading
 
 # API Reference
-* https://covid19api.com/
-* https://covidtracker.bsg.ox.ac.uk/about-api
+* https://api.apify.com/v2/datasets/suHgi59tSfu02VsRO/items?format=json&clean=1
 
 # Credits
 * Contents of the overview,Covid-19 Statistics,Covid-19 Prevention,Covid-19 Symptoms and Covid-19 Treatments are from WHO official website: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
@@ -78,3 +83,6 @@ The webstie has been tested on chrome,firefox and microsoft edge on pc, and safa
 2. Commit the basic outline for the website
 3. Commit the websites: Home,Prevention,Symptoms and Treatment
 4. Commit part of the website: Statistics
+5. Commit the script and statistics page
+6. Commit the corrections of details
+

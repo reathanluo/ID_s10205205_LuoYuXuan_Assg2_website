@@ -48,13 +48,18 @@ During this Covid-19 period, it is important and necessary to disseminate the es
 * Bootstrap Ids
   * navbarHeader
   
+* Chart.js
+
+* JQuery
+  * getJSON
+  * each
+  
 # Features
 1. Newest data and statistics shown to the readers
 2. Useful contents about Covid-19 for reading
 
 # API Reference
-* https://covid19api.com/
-* https://covidtracker.bsg.ox.ac.uk/about-api
+* https://api.apify.com/v2/datasets/suHgi59tSfu02VsRO/items?format=json&clean=1
 
 # Credits
 * Contents of the overview,Covid-19 Statistics,Covid-19 Prevention,Covid-19 Symptoms and Covid-19 Treatments are from WHO official website: https://www.who.int/emergencies/diseases/novel-coronavirus-2019

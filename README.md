@@ -6,7 +6,7 @@ During this Covid-19 period, it is important and necessary to disseminate the es
 
 # Framework Used
 * Bootstrap style sheet
-  * https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  * https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"crossorigin="anonymous">
   
 * Bootstrap Classes
   * collapse
@@ -83,3 +83,6 @@ The webstie has been tested on chrome,firefox and microsoft edge on pc, and safa
 2. Commit the basic outline for the website
 3. Commit the websites: Home,Prevention,Symptoms and Treatment
 4. Commit part of the website: Statistics
+5. Commit the script and statistics page
+6. Commit the corrections of details
+

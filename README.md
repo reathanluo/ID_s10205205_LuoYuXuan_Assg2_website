@@ -85,4 +85,5 @@ The webstie has been tested on chrome,firefox and microsoft edge on pc, and safa
 4. Commit part of the website: Statistics
 5. Commit the script and statistics page
 6. Commit the corrections of details
+7. Commit the videp pitch
 
